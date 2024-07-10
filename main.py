@@ -40,9 +40,4 @@ def main():
             st.audio(audio_file.read(), format='audio/mp3')
 
             # Provide a download link for the MP3 file
-            st.markdown(get_binary_file_downloader_html("Download Audio File", output_file, 'audio/mp3'), unsafe_allow_html=True)
-        else:
-            st.warning("Failed to generate audio. Please check your input.")
-
-if _name_ == "_main_":
-    main()
+            st.markdown(get_binary_file_downloader_html("Download Audio File", output_file, 'audio/mp3'), unsafe_allow_html=T
