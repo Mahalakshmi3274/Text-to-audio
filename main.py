@@ -3,15 +3,7 @@ from gtts import gTTS
 import os
 import base64
 
-# Language code to full language name mapping
-LANGUAGE_MAPPING = {
-    "en": "English",
-    "hi": "Hindi",
-    "es": "Spanish",
-    "fr": "French",
-    "te":"Telugu"
-    # Add more languages as needed
-}
+
 
 # Function to convert text to speech and save as an MP3 file
 def convert_text_to_speech(text, output_file, language='en'):
@@ -35,7 +27,7 @@ def main():
     # Get user input
     text = st.text_area("Enter text to convert to speech:", height=300)
 
-    language_code = st.selectbox("Select language:", options=list(LANGUAGE_MAPPING.keys()), format_func=lambda x: LANGUAGE_MAPPING[x])
+   
 
     # Add a button to trigger the text-to-speech conversion
     if st.button("Convert to Speech and Download Audio"):
