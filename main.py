@@ -8,7 +8,8 @@ LANGUAGE_MAPPING = {
     "en": "English",
     "hi": "Hindi",
     "es": "Spanish",
-    "fr": "French"
+    "fr": "French",
+    "te":"Telugu"
     # Add more languages as needed
 }
 
