@@ -1,4 +1,4 @@
-[6:41 pm, 11/07/2024] Amma🥹: import streamlit as st
+ import streamlit as st
 from gtts import gTTS
 from googletrans import Translator
 import os
