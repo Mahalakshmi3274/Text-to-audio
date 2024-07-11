@@ -44,5 +44,5 @@ def main():
         else:
             st.warning("Failed to generate audio. Please check your input.")
 
-if_name_ == "_main_":
+if__name__== "__main__":
     main()
